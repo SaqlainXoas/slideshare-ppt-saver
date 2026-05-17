@@ -1,0 +1,27 @@
+[project]
+name = "slideshare-ppt-saver"
+version = "0.1.0"
+description = "Turn public SlideShare decks into image-based PPTX files."
+readme = "README.md"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "beautifulsoup4>=4.14.3,<5",
+    "pillow>=11.3.0,<12",
+    "python-pptx>=1.0.2,<2",
+    "requests>=2.32.5,<3",
+    "streamlit>=1.45.1,<2",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8.4.0,<9",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["testing"]
+pythonpath = ["."]
+addopts = "-ra"
+
+[tool.uv]
+default-groups = ["dev"]
+package = false
