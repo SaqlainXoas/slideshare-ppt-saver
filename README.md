@@ -33,6 +33,12 @@ uv run streamlit run app.py
 
 Then open the local URL, paste a public SlideShare link, and click `Generate`.
 
+## Live App
+
+Use the deployed app here:
+
+[https://slideshare-saver.streamlit.app/](https://slideshare-saver.streamlit.app/)
+
 ## CLI Usage
 
 ```bash
@@ -49,7 +55,9 @@ uv run pytest
 
 ## Deploy
 
-This project is a good fit for free hosting on Streamlit Community Cloud or Hugging Face Spaces.
+This project is deployed live on Streamlit Community Cloud:
+
+[https://slideshare-saver.streamlit.app/](https://slideshare-saver.streamlit.app/)
 
 ## Project Files
 
